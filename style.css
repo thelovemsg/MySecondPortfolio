@@ -77,6 +77,17 @@ ul {
   list-style: none;
   padding-left: 0;
 }
+
+li {
+  list-style: none;
+}
+
+buttom {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
 /*Navbar*/
 #navbar {
   display: flex;
@@ -89,7 +100,6 @@ ul {
 .navbar__logo {
   font-size: var(--font-medium);
   font-weight: var(--weight-semi-bold);
-  margin-left: 20px;
 }
 .navbar__menu {
   display: flex;
@@ -108,4 +118,33 @@ ul {
 
 .navbar__menu__item:hover {
   background-color: var(--color-black);
+}
+
+/*HOme */
+#home {
+  background: url("imgs/background.png") center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-light-white);
+}
+
+.home__title,
+.home__description {
+  color: var(--color-white);
+}
+
+.home__contact {
+  color: var(--color-black);
+  font-size: var(--font-regular);
+  font-weight: var(--weight-bolc);
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid white;
+  border-radius: 4px;
 }
